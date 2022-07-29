@@ -1,6 +1,8 @@
 ---
 output: 
   html_document:
+    toc: true
+    toc_float: true
     theme: cosmo
     include:
       after_body: footer.html
@@ -10,8 +12,9 @@ output:
 <link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="academicons/css/academicons.min.css"/>
 
-# BINF G4008: INTERROGATING ETHICS AND JUSTICE IN DIGITAL HEALTH
-## Fall 2022 - Thursdays, 2:00-4:00PM
+<font size="+2">**BINF G4008: INTERROGATING ETHICS AND JUSTICE IN DIGITAL HEALTH**</font>   
+
+**Fall 2022 - Thursdays, 2:00-4:00PM**   
 
 **Course Directors:**    
 [Noémie Elhadad, PhD](https://people.dbmi.columbia.edu/noemie/)  ([noemie.elhadad@columbia.edu](mailto:noemie.elhadad@columbia.edu))   
@@ -20,15 +23,15 @@ output:
 **Teaching Assistant:**   
 [Harry Reyes Nieva, MAS, MA](https://www.harryreyesnieva.com)  ([harry.reyes@columbia.edu](mailto:harry.reyes@columbia.edu))
 
-**Classroom Location:**    
-Columbia University Irving Medical Center, Presbyterian Hospital, 20th Floor, Room 200
+**Classroom Location:**   
+Columbia University Irving Medical Center,   
+Presbyterian Hospital, 20th Floor, Room 200
 
-**Office Hours:**    
-by appointment  
+**Office Hours:** by appointment  
 
 **Course website:** [https://elhadadlab.github.io/4008-02/](https://elhadadlab.github.io/4008-02/)
-
-**Course Description**   
+   
+## Course Description  
 Engaging with data is a civic requirement. Technical expertise must include engagement with the ethical issues and policy implications related to emerging data-driven techniques. The biomedical, health, and clinical domains are going through in-depth changes as artificial intelligence and data-driven thinking are becoming inherent to routine processes. How will knowledge production in health data science determine what counts as healthy, normal or disease in individuals and groups? Who will get access to what care and at what price when treatment recommendations are guided by artificial intelligence?
 
 The purpose of this course is to engage students in thinking about the ethical issues and social
@@ -39,3 +42,51 @@ This collaborative course will provide innovative materials and hands-on experie
 1. a series of use cases that reflect ongoing themes in ethics and justice in digital health, and corresponding simulated datasets & computational tools for students to engage with;   
 2. collaborative, multidisciplinary work on a research project at the intersection of ethics and digital health for students to synthesize their skills and knowledge acquired during the course; and   
 3. mentoring for students to write an op-ed on a specific topic in ethics for digital health targeted at the general public.
+
+## Learning Objectives
+When students complete this course, they will be able to:
+
+Engage with fundamental concepts in the social study of science and technology and analyze social and political issues (e.g., construction of categories, co-production, expertise, public engagement and structural inequality);
+
+Identify ethical issues in data science techniques applied in biomedical research, clinical care, and wellbeing technology such as privacy, autonomy, discrimination, and accountability;
+
+Identify how and to what extent values are embedded in technical artifacts and systems through implicit and explicit technological design and user experience;   
+Critically analyze the implications of prioritizing values for individuals and groups;
+Carry out analyses of complex health and healthcare datasets to identify types of potential biases;
+
+Engage and critically analyze computational approaches proposed in the recent machine-learning and biomedical literature for bias detection and mitigation;
+Communicate the on-going problematics and debates of data-driven digital health from an ethical and justice standpoint.
+
+## Registration
+Registration for the course is with instructor’s permission. The course is open to Columbia University graduate students as well as undergraduate seniors. As you register, please send an email to Drs Elhadad and Lee with the following information, prior to September 7, 2022:   
+* Your name, uni, department, and year in degree   
+* In a few sentences, why are you interested in taking the course?   
+* Do you have experience with coding?    
+* Do you have a background in ethics?   
+
+## Prerequisites
+No prior coursework is required. The course is open to graduate students as well as undergraduate seniors. Permission from the course directors is required to enroll.
+ 
+## Course Requirements and Grading
+Attendance to class is required unless otherwise pre-approved. Grading is based on class participation (10%), Use Case Responses and Experiments (35%), a Group Project (35%), and an Op-Ed (20%).
+ 
+## Assignments
+**Use Case Responses and Experiments.** Short response papers (1-2 pages) to readings discussed in class, and programming notebooks compiling experiments on use cases (e.g., assess degree of missing information of different data elements in given datasets and resulting biases). The primary competency of these assignments will relate to comprehension of material discussed in class and application of computational tools to specific use cases.
+
+**Group project.** Small teams of students with interdisciplinary background will select a particular issue (e.g., predictive modeling for resource allocation in a pandemic), identify gaps in knowledge (e.g., racial and economic disparities), propose a comprehensive plan for addressing the knowledge gap, and provide preliminary work towards addressing the identified gaps. The primary competencies of this assignment will pertain to synthesis of the different ethical frameworks and the algorithmic approaches discussed in class. Furthermore, the project will provide experience for students to work closely across their discipline boundaries and experience first-hand the challenges and rewards of such collaborations.
+
+**Op-Ed.** Students will write op-eds (800 words) that communicate the complexity of a chosen topic at the intersection of ethics, justice, and digital health to a general audience. The primary competency for this assignment pertains to communication. Students will pitch their OpEds to different venues if they desire to and, unless another venue is secured, they will have the opportunity to publish their pieces on the course’s blog.
+
+## Academic Integrity
+Columbia's intellectual community relies on academic integrity and responsibility as the cornerstone of its work. Graduate students are expected to exhibit the highest level of personal and academic honesty as they engage in scholarly discourse and research. In practical terms, you must be responsible for the full and accurate attribution of the ideas of others in all of your research papers and projects; you must be honest when taking your examinations; you must always submit your own work and not that of another student, scholar, or internet source. Graduate students are responsible for knowing and correctly utilizing referencing and bibliographical guidelines. When in doubt, consult your professor. Citation and plagiarism-prevention resources can be found at the GSAS page on Academic Integrity and Responsible Conduct of Research ([https://gsas.columbia.edu/student-guide/research/academic-integrity-and-responsible-conduct-research](https://gsas.columbia.edu/student-guide/research/academic-integrity-and-responsible-conduct-research)).
+ 
+Failure to observe these rules of conduct will have serious academic consequences, up to and including dismissal from the university. If a faculty member suspects a breach of academic honesty, appropriate investigative and disciplinary action will be taken following Dean's Discipline procedures ([https://gsas.columbia.edu/student-guide/policy-handbook/deans-discipline](https://gsas.columbia.edu/student-guide/policy-handbook/deans-discipline)). Your grade should reflect your own work. If you believe you are going to have trouble completing an assignment, please talk to one of the instructors or TA in advance of the due date.
+
+<style>
+.avatar {
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+</style>

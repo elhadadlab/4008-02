@@ -1,11 +1,7 @@
 name: "BINF 4008-02"
 output_dir: "."
 navbar:
-  title: "Home"
-  left:
-    - text: "Course Syllabus"
-      href: syllabus.html
-      
+  title: "COLUMBIA UNIVERSITY - BINF 4008-02 Interrogating Ethics and Justice in Digital Health"
   right:    
    - icon: fa-github
      href: https://github.com/elhadadlab/4008-02

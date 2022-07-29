@@ -29,6 +29,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -225,6 +228,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -232,6 +298,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -244,13 +320,11 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Home</a>
+      <a class="navbar-brand" href="index.html">COLUMBIA UNIVERSITY - BINF 4008-02 Interrogating Ethics and Justice in Digital Health</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li>
-  <a href="syllabus.html">Course Syllabus</a>
-</li>
+        
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
@@ -274,11 +348,9 @@ $(document).ready(function () {
 
 <p><link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="academicons/css/academicons.min.css"/></p>
-<div id="binf-g4008-interrogating-ethics-and-justice-in-digital-health"
-class="section level1">
-<h1>BINF G4008: INTERROGATING ETHICS AND JUSTICE IN DIGITAL HEALTH</h1>
-<div id="fall-2022---thursdays-200-400pm" class="section level2">
-<h2>Fall 2022 - Thursdays, 2:00-4:00PM</h2>
+<p><font size="+2"><strong>BINF G4008: INTERROGATING ETHICS AND JUSTICE
+IN DIGITAL HEALTH</strong></font></p>
+<p><strong>Fall 2022 - Thursdays, 2:00-4:00PM</strong></p>
 <p><strong>Course Directors:</strong><br />
 <a href="https://people.dbmi.columbia.edu/noemie/">Noémie Elhadad,
 PhD</a> (<a
@@ -292,14 +364,14 @@ href="mailto:sandra.lee@columbia.edu">sandra.lee@columbia.edu</a>)</p>
 (<a
 href="mailto:harry.reyes@columbia.edu">harry.reyes@columbia.edu</a>)</p>
 <p><strong>Classroom Location:</strong><br />
-Columbia University Irving Medical Center, Presbyterian Hospital, 20th
-Floor, Room 200</p>
-<p><strong>Office Hours:</strong><br />
-by appointment</p>
+Columbia University Irving Medical Center,<br />
+Presbyterian Hospital, 20th Floor, Room 200</p>
+<p><strong>Office Hours:</strong> by appointment</p>
 <p><strong>Course website:</strong> <a
 href="https://elhadadlab.github.io/4008-02/">https://elhadadlab.github.io/4008-02/</a></p>
-<p><strong>Course Description</strong><br />
-Engaging with data is a civic requirement. Technical expertise must
+<div id="course-description" class="section level2">
+<h2>Course Description</h2>
+<p>Engaging with data is a civic requirement. Technical expertise must
 include engagement with the ethical issues and policy implications
 related to emerging data-driven techniques. The biomedical, health, and
 clinical domains are going through in-depth changes as artificial
@@ -331,14 +403,126 @@ their skills and knowledge acquired during the course; and<br />
 ethics for digital health targeted at the general public.</li>
 </ol>
 </div>
+<div id="learning-objectives" class="section level2">
+<h2>Learning Objectives</h2>
+<p>When students complete this course, they will be able to:</p>
+<p>Engage with fundamental concepts in the social study of science and
+technology and analyze social and political issues (e.g., construction
+of categories, co-production, expertise, public engagement and
+structural inequality);</p>
+<p>Identify ethical issues in data science techniques applied in
+biomedical research, clinical care, and wellbeing technology such as
+privacy, autonomy, discrimination, and accountability;</p>
+<p>Identify how and to what extent values are embedded in technical
+artifacts and systems through implicit and explicit technological design
+and user experience;<br />
+Critically analyze the implications of prioritizing values for
+individuals and groups; Carry out analyses of complex health and
+healthcare datasets to identify types of potential biases;</p>
+<p>Engage and critically analyze computational approaches proposed in
+the recent machine-learning and biomedical literature for bias detection
+and mitigation; Communicate the on-going problematics and debates of
+data-driven digital health from an ethical and justice standpoint.</p>
+</div>
+<div id="registration" class="section level2">
+<h2>Registration</h2>
+<p>Registration for the course is with instructor’s permission. The
+course is open to Columbia University graduate students as well as
+undergraduate seniors. As you register, please send an email to Drs
+Elhadad and Lee with the following information, prior to September 7,
+2022:<br />
+* Your name, uni, department, and year in degree<br />
+* In a few sentences, why are you interested in taking the course?<br />
+* Do you have experience with coding?<br />
+* Do you have a background in ethics?</p>
+</div>
+<div id="prerequisites" class="section level2">
+<h2>Prerequisites</h2>
+<p>No prior coursework is required. The course is open to graduate
+students as well as undergraduate seniors. Permission from the course
+directors is required to enroll.</p>
+</div>
+<div id="course-requirements-and-grading" class="section level2">
+<h2>Course Requirements and Grading</h2>
+<p>Attendance to class is required unless otherwise pre-approved.
+Grading is based on class participation (10%), Use Case Responses and
+Experiments (35%), a Group Project (35%), and an Op-Ed (20%).</p>
+</div>
+<div id="assignments" class="section level2">
+<h2>Assignments</h2>
+<p><strong>Use Case Responses and Experiments.</strong> Short response
+papers (1-2 pages) to readings discussed in class, and programming
+notebooks compiling experiments on use cases (e.g., assess degree of
+missing information of different data elements in given datasets and
+resulting biases). The primary competency of these assignments will
+relate to comprehension of material discussed in class and application
+of computational tools to specific use cases.</p>
+<p><strong>Group project.</strong> Small teams of students with
+interdisciplinary background will select a particular issue (e.g.,
+predictive modeling for resource allocation in a pandemic), identify
+gaps in knowledge (e.g., racial and economic disparities), propose a
+comprehensive plan for addressing the knowledge gap, and provide
+preliminary work towards addressing the identified gaps. The primary
+competencies of this assignment will pertain to synthesis of the
+different ethical frameworks and the algorithmic approaches discussed in
+class. Furthermore, the project will provide experience for students to
+work closely across their discipline boundaries and experience
+first-hand the challenges and rewards of such collaborations.</p>
+<p><strong>Op-Ed.</strong> Students will write op-eds (800 words) that
+communicate the complexity of a chosen topic at the intersection of
+ethics, justice, and digital health to a general audience. The primary
+competency for this assignment pertains to communication. Students will
+pitch their OpEds to different venues if they desire to and, unless
+another venue is secured, they will have the opportunity to publish
+their pieces on the course’s blog.</p>
+</div>
+<div id="academic-integrity" class="section level2">
+<h2>Academic Integrity</h2>
+<p>Columbia’s intellectual community relies on academic integrity and
+responsibility as the cornerstone of its work. Graduate students are
+expected to exhibit the highest level of personal and academic honesty
+as they engage in scholarly discourse and research. In practical terms,
+you must be responsible for the full and accurate attribution of the
+ideas of others in all of your research papers and projects; you must be
+honest when taking your examinations; you must always submit your own
+work and not that of another student, scholar, or internet source.
+Graduate students are responsible for knowing and correctly utilizing
+referencing and bibliographical guidelines. When in doubt, consult your
+professor. Citation and plagiarism-prevention resources can be found at
+the GSAS page on Academic Integrity and Responsible Conduct of Research
+(<a
+href="https://gsas.columbia.edu/student-guide/research/academic-integrity-and-responsible-conduct-research">https://gsas.columbia.edu/student-guide/research/academic-integrity-and-responsible-conduct-research</a>).</p>
+<p>Failure to observe these rules of conduct will have serious academic
+consequences, up to and including dismissal from the university. If a
+faculty member suspects a breach of academic honesty, appropriate
+investigative and disciplinary action will be taken following Dean’s
+Discipline procedures (<a
+href="https://gsas.columbia.edu/student-guide/policy-handbook/deans-discipline">https://gsas.columbia.edu/student-guide/policy-handbook/deans-discipline</a>).
+Your grade should reflect your own work. If you believe you are going to
+have trouble completing an assignment, please talk to one of the
+instructors or TA in advance of the due date.</p>
+<style>
+.avatar {
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+</style>
 </div>
 
 <br><br>
 <footer>
-    <p class="copyright text-muted" align="center">Copyright &copy; 2022 Columbia University</p>
+    <p class="copyright text-muted" align="center">Copyright &copy; 2022</br>
+Columbia University Irving Medical Center</br>
+        622 West 168th Street</br>
+        New York, NY 10032</p
+<script type="text/javascript" src="links.js"></script>
 </footer>
 
 
+</div>
+</div>
 
 </div>
 
@@ -371,6 +555,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
