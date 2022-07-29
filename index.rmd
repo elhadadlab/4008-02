@@ -15,15 +15,15 @@ output:
 
 <font size="+2">**INTERROGATING ETHICS AND JUSTICE IN DIGITAL HEALTH**</font>    
 **Fall 2022 - Thursdays, 2:00-4:00PM**    
-[Department of Biomedical Informatics, Columbia University](https://www.dbmi.columbia.edu/)   
-[Department of Medical Humanities and Ethics, Columbia University](https://www.mhe.cuimc.columbia.edu/)   
+<a href="https://www.dbmi.columbia.edu/" target="_blank">Department of Biomedical Informatics, Columbia University</a>   
+<a href="https://www.mhe.cuimc.columbia.edu/" target="_blank">Department of Medical Humanities and Ethics, Columbia University</a>  
 
 **Course Directors:**    
-[Noémie Elhadad, PhD](https://people.dbmi.columbia.edu/noemie/)  ([noemie.elhadad@columbia.edu](mailto:noemie.elhadad@columbia.edu))   
-[Sandra Soo-Jin Lee, PhD](https://www.mhe.cuimc.columbia.edu/profile/sandra-s-lee-phd)  ([sandra.lee@columbia.edu](mailto:sandra.lee@columbia.edu))
+<a href="https://people.dbmi.columbia.edu/noemie/" target="_blank">Noémie Elhadad, PhD</a>  ([noemie.elhadad@columbia.edu](mailto:noemie.elhadad@columbia.edu))   
+<a href="https://www.mhe.cuimc.columbia.edu/profile/sandra-s-lee-phd" target="_blank">Sandra Soo-Jin Lee, PhD</a> ([sandra.lee@columbia.edu](mailto:sandra.lee@columbia.edu))
 
 **Teaching Assistant:**   
-[Harry Reyes Nieva, MAS, MA](https://www.harryreyesnieva.com)  ([harry.reyes@columbia.edu](mailto:harry.reyes@columbia.edu))
+<a href="https://www.harryreyesnieva.com" target="_blank">Harry Reyes Nieva, MAS, MA</a> ([harry.reyes@columbia.edu](mailto:harry.reyes@columbia.edu))
 
 **Classroom Location:**   
 Columbia University Irving Medical Center,   
@@ -31,7 +31,7 @@ Presbyterian Hospital, 20th Floor, Room 200
 
 **Office Hours:** by appointment  
 
-**Course website:** [https://elhadadlab.github.io/4008-02/](https://elhadadlab.github.io/4008-02/)
+**Course website:** <a href="https://elhadadlab.github.io/4008-02/" target="_blank">https://elhadadlab.github.io/4008-02/ </a>
    
 ## Course Description  
 Engaging with data is a civic requirement. Technical expertise must include engagement with the ethical issues and policy implications related to emerging data-driven techniques. The biomedical, health, and clinical domains are going through in-depth changes as artificial intelligence and data-driven thinking are becoming inherent to routine processes. How will knowledge production in health data science determine what counts as healthy, normal or disease in individuals and groups? Who will get access to what care and at what price when treatment recommendations are guided by artificial intelligence?
@@ -85,9 +85,9 @@ Attendance to class is required unless otherwise pre-approved. Grading is based 
 **Op-Ed.** Students will write op-eds (800 words) that communicate the complexity of a chosen topic at the intersection of ethics, justice, and digital health to a general audience. The primary competency for this assignment pertains to communication. Students will pitch their OpEds to different venues if they desire to and, unless another venue is secured, they will have the opportunity to publish their pieces on the course’s blog.
 
 ## Academic Integrity
-Columbia's intellectual community relies on academic integrity and responsibility as the cornerstone of its work. Graduate students are expected to exhibit the highest level of personal and academic honesty as they engage in scholarly discourse and research. In practical terms, you must be responsible for the full and accurate attribution of the ideas of others in all of your research papers and projects; you must be honest when taking your examinations; you must always submit your own work and not that of another student, scholar, or internet source. Graduate students are responsible for knowing and correctly utilizing referencing and bibliographical guidelines. When in doubt, consult your professor. Citation and plagiarism-prevention resources can be found at the GSAS page on Academic Integrity and Responsible Conduct of Research ([https://gsas.columbia.edu/student-guide/research/academic-integrity-and-responsible-conduct-research](https://gsas.columbia.edu/student-guide/research/academic-integrity-and-responsible-conduct-research)).
+Columbia's intellectual community relies on academic integrity and responsibility as the cornerstone of its work. Graduate students are expected to exhibit the highest level of personal and academic honesty as they engage in scholarly discourse and research. In practical terms, you must be responsible for the full and accurate attribution of the ideas of others in all of your research papers and projects; you must be honest when taking your examinations; you must always submit your own work and not that of another student, scholar, or internet source. Graduate students are responsible for knowing and correctly utilizing referencing and bibliographical guidelines. When in doubt, consult your professor. Citation and plagiarism-prevention resources can be found at the GSAS page on <a href="https://gsas.columbia.edu/student-guide/research/academic-integrity-and-responsible-conduct-research" target="_blank">Academic Integrity and Responsible Conduct of Research</a>.
  
-Failure to observe these rules of conduct will have serious academic consequences, up to and including dismissal from the university. If a faculty member suspects a breach of academic honesty, appropriate investigative and disciplinary action will be taken following Dean's Discipline procedures ([https://gsas.columbia.edu/student-guide/policy-handbook/deans-discipline](https://gsas.columbia.edu/student-guide/policy-handbook/deans-discipline)). Your grade should reflect your own work. If you believe you are going to have trouble completing an assignment, please talk to one of the instructors or TA in advance of the due date.
+Failure to observe these rules of conduct will have serious academic consequences, up to and including dismissal from the university. If a faculty member suspects a breach of academic honesty, appropriate investigative and disciplinary action will be taken following <a href="https://www.gsas.columbia.edu/content/deans-discipline" target="_blank">Dean's Discipline</a> procedures. Your grade should reflect your own work. If you believe you are going to have trouble completing an assignment, please talk to one of the instructors or TA in advance of the due date.
 
 <style>
 .avatar {
