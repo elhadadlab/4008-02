@@ -14,7 +14,8 @@ Columbia University Irving Medical Center, Presbyterian Hospital, 20th Floor, Ro
 **Office Hours:**    
 by appointment  
 
-**Course website:** [https://elhadadlab.github.io/4008-02/]([https://elhadadlab.github.io/4008-02/)
+**Course website:**  
+[https://elhadadlab.github.io/4008-02/](https://elhadadlab.github.io/4008-02/)
 
 **Course Description**   
 Engaging with data is a civic requirement. Technical expertise must include engagement with the ethical issues and policy implications related to emerging data-driven techniques. The biomedical, health, and clinical domains are going through in-depth changes as artificial intelligence and data-driven thinking are becoming inherent to routine processes. How will knowledge production in health data science determine what counts as healthy, normal or disease in individuals and groups? Who will get access to what care and at what price when treatment recommendations are guided by artificial intelligence?
