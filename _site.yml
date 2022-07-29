@@ -1,0 +1,14 @@
+name: "BINF 4008-02"
+output_dir: "."
+navbar:
+  title: "Home"
+  left:
+    - text: "About"
+      href: about.html
+  right:    
+    - icon: fa-paper-plane fa-lg
+      href: mailto:harry.reyes@columbia.edu
+#https://boxicons.com/
+
+output:
+  html_document
