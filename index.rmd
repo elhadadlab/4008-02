@@ -14,11 +14,11 @@ output:
 ## Fall 2022 - Thursdays, 2:00-4:00PM
 
 **Course Directors:**    
-[Noémie Elhadad, PhD](https://people.dbmi.columbia.edu/noemie/) [noemie.elhadad@columbia.edu](mailto:noemie.elhadad@columbia.edu)   
-[Sandra Soo-Jin Lee, PhD](https://www.mhe.cuimc.columbia.edu/profile/sandra-s-lee-phd) [sandra.lee@columbia.edu](mailto:sandra.lee@columbia.edu)
+[Noémie Elhadad, PhD](https://people.dbmi.columbia.edu/noemie/) [noemie.elhadad@columbia.edu]( (mailto:noemie.elhadad@columbia.edu))   
+[Sandra Soo-Jin Lee, PhD](https://www.mhe.cuimc.columbia.edu/profile/sandra-s-lee-phd) [sandra.lee@columbia.edu]( (mailto:sandra.lee@columbia.edu))
 
 **Teaching Assistant:**   
-[Harry Reyes Nieva, MAS, MA](www.harryreyesnieva.com) ([harry.reyes@columbia.edu](mailto:harry.reyes@columbia.edu))
+[Harry Reyes Nieva, MAS, MA](www.harryreyesnieva.com) ([harry.reyes@columbia.edu]( (mailto:harry.reyes@columbia.edu))
 
 **Classroom Location:**    
 Presbyterian Hospital, 20th Floor, Room 200
