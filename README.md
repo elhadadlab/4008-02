@@ -8,9 +8,11 @@ Sandra Soo-Jin Lee, PhD (sandra.lee@columbia.edu)
 **Teaching Assistant:**   
 Harry Reyes Nieva, MAS, MA (harry.reyes@columbia.edu)
 
-**Classroom Location: **Presbyterian Hospital, 20th Floor, Room 200
+**Classroom Location: **   
+Presbyterian Hospital, 20th Floor, Room 200
 
-**Office Hours:** by appointment  
+**Office Hours:**    
+by appointment  
 
 **Course Description**   
 Engaging with data is a civic requirement. Technical expertise must include engagement with the ethical issues and policy implications related to emerging data-driven techniques. The biomedical, health, and clinical domains are going through in-depth changes as artificial intelligence and data-driven thinking are becoming inherent to routine processes. How will knowledge production in health data science determine what counts as healthy, normal or disease in individuals and groups? Who will get access to what care and at what price when treatment recommendations are guided by artificial intelligence?
