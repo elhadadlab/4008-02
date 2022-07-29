@@ -40,22 +40,27 @@ implications of the creation, analysis and application of data in health. This m
 This collaborative course will provide innovative materials and hands-on experience to students through:  
 
 1. a series of use cases that reflect ongoing themes in ethics and justice in digital health, and corresponding simulated datasets & computational tools for students to engage with;   
+
 2. collaborative, multidisciplinary work on a research project at the intersection of ethics and digital health for students to synthesize their skills and knowledge acquired during the course; and   
+
 3. mentoring for students to write an op-ed on a specific topic in ethics for digital health targeted at the general public.
 
 ## Learning Objectives
 When students complete this course, they will be able to:
 
-Engage with fundamental concepts in the social study of science and technology and analyze social and political issues (e.g., construction of categories, co-production, expertise, public engagement and structural inequality);
+* Engage with fundamental concepts in the social study of science and technology and analyze social and political issues (e.g., construction of categories, co-production, expertise, public engagement and structural inequality);
 
-Identify ethical issues in data science techniques applied in biomedical research, clinical care, and wellbeing technology such as privacy, autonomy, discrimination, and accountability;
+* Identify ethical issues in data science techniques applied in biomedical research, clinical care, and wellbeing technology such as privacy, autonomy, discrimination, and accountability;
 
-Identify how and to what extent values are embedded in technical artifacts and systems through implicit and explicit technological design and user experience;   
-Critically analyze the implications of prioritizing values for individuals and groups;
-Carry out analyses of complex health and healthcare datasets to identify types of potential biases;
+* Identify how and to what extent values are embedded in technical artifacts and systems through implicit and explicit technological design and user experience;   
 
-Engage and critically analyze computational approaches proposed in the recent machine-learning and biomedical literature for bias detection and mitigation;
-Communicate the on-going problematics and debates of data-driven digital health from an ethical and justice standpoint.
+* Critically analyze the implications of prioritizing values for individuals and groups;
+
+* Carry out analyses of complex health and healthcare datasets to identify types of potential biases;
+
+* Engage and critically analyze computational approaches proposed in the recent machine-learning and biomedical literature for bias detection and mitigation;
+
+* Communicate the on-going problematics and debates of data-driven digital health from an ethical and justice standpoint.
 
 ## Registration
 Registration for the course is with instructor’s permission. The course is open to Columbia University graduate students as well as undergraduate seniors. As you register, please send an email to Drs Elhadad and Lee with the following information, prior to September 7, 2022:   
