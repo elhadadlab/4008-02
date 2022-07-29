@@ -1,7 +1,7 @@
-name: "BINF 4008-02"
+name: "BINF 4008-02 Interrogating Ethics and Justice in Digital Health"
 output_dir: "."
 navbar:
-  title: "COLUMBIA UNIVERSITY - BINF 4008-02 Interrogating Ethics and Justice in Digital Health"
+  title: "COLUMBIA UNIVERSITY BINF 4008-02"
   right:    
    - icon: fa-github
      href: https://github.com/elhadadlab/4008-02
