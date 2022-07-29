@@ -8,7 +8,7 @@ Sandra Soo-Jin Lee, PhD (sandra.lee@columbia.edu)
 **Teaching Assistant:**   
 Harry Reyes Nieva, MAS, MA (harry.reyes@columbia.edu)
 
-**Classroom Location: **   
+**Classroom Location:**    
 Presbyterian Hospital, 20th Floor, Room 200
 
 **Office Hours:**    
