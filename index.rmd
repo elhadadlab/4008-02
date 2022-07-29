@@ -1,4 +1,5 @@
 ---
+title: BINF 4008-02
 output: 
   html_document:
     toc: true
