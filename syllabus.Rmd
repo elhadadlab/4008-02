@@ -12,6 +12,8 @@ output:
 <link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="academicons/css/academicons.min.css"/>
 
+[**Course Syllabus**](https://github.com/elhadadlab/4008-02/raw/main/BINF%204008-02%20Course%20Syllabus.pdf){:target="_blank"}
+
 # Learning Objectives
 When students complete this course, they will be able to:
 Engage with fundamental concepts in the social study of science and technology and analyze social and political issues (e.g., construction of categories, co-production, expertise, public engagement and structural inequality);

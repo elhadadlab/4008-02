@@ -3,11 +3,12 @@ output_dir: "."
 navbar:
   title: "Home"
   left:
-    - text: "About"
-      href: about.html
+    - text: "Course Syllabus"
+      href: syllabus.html
+      
   right:    
-    - icon: fa-paper-plane fa-lg
-      href: mailto:harry.reyes@columbia.edu
+   - icon: fa-github
+     href: https://github.com/elhadadlab/4008-02
 #https://boxicons.com/
 
 output:
