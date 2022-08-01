@@ -40,7 +40,7 @@ output:
   padding: 0px;
 }
 .bio-container2 {
- width: 100%;
+ width: 500;
 }
 </style>
 
