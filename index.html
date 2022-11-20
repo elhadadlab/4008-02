@@ -13,7 +13,7 @@
 
 <title>BINF 4008-02</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -147,11 +147,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -624,6 +628,77 @@ Discipline</a> procedures. Your grade should reflect your own work. If
 you believe you are going to have trouble completing an assignment,
 please talk to one of the instructors or TA in advance of the due
 date.</p>
+</div>
+<div id="course-schedule" class="section level2">
+<h2>Course Schedule</h2>
+<table>
+<colgroup>
+<col width="15%" />
+<col width="84%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Topic</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Sep 8</td>
+<td>Ethics: Principles and Fundamentals / Basics of R programming
+(Optional)</td>
+</tr>
+<tr class="even">
+<td>Sep 15</td>
+<td>OHDSI/OMOP Primer / R and SQL Access Lab</td>
+</tr>
+<tr class="odd">
+<td>Sep 22</td>
+<td>Stakeholders, Actors of Digital Health</td>
+</tr>
+<tr class="even">
+<td>Sep 29</td>
+<td>How to formulate an ethical argument / Whose data and which data are
+collected</td>
+</tr>
+<tr class="odd">
+<td>Oct 6</td>
+<td>Designing for Inclusion</td>
+</tr>
+<tr class="even">
+<td>Oct 20</td>
+<td>Privacy / Data harmonization and standardization</td>
+</tr>
+<tr class="odd">
+<td>Oct 27, 28</td>
+<td>Op-Ed Project Writing Workshop</td>
+</tr>
+<tr class="even">
+<td>Nov 3</td>
+<td>Algorithmic Fairness and Justice</td>
+</tr>
+<tr class="odd">
+<td>Nov 10</td>
+<td>Algorithms</td>
+</tr>
+<tr class="even">
+<td>Nov 17</td>
+<td>Safety</td>
+</tr>
+<tr class="odd">
+<td>Nov 24</td>
+<td>No Class (Thanksgiving)</td>
+</tr>
+<tr class="even">
+<td>Dec 1</td>
+<td>Trust and Transparency</td>
+</tr>
+<tr class="odd">
+<td>Dec 8</td>
+<td>Group Presentations / Op-Ed Discussion</td>
+</tr>
+</tbody>
+</table>
 </div>
 
 <br><br>
