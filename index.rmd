@@ -163,12 +163,12 @@ Failure to observe these rules of conduct will have serious academic consequence
 
 | Date          | Topic                                                                         |
 |---------------|-------------------------------------------------------------------------------|
-| Sep 8         | Ethics: Principles and Fundamentals / Basics of R programming (Optional)      |
-| Sep 15        | OHDSI/OMOP Primer / R and SQL Access Lab                                      |
+| Sep 8         | Ethics: Principles and Fundamentals / Basics of R Programming (Optional)      |
+| Sep 15        | OHDSI and OMOP Primer / R and SQL Access Lab                                  |
 | Sep 22        | Stakeholders, Actors of Digital Health                                        |
-| Sep 29        | How to formulate an ethical argument / Whose data and which data are collected|
+| Sep 29        | How to Formulate an Ethical Argument / Whose Data and Which Data Are Collected|
 | Oct 6         | Designing for Inclusion                                                       |
-| Oct 20        | Privacy / Data harmonization and standardization                              |
+| Oct 20        | Privacy / Data Harmonization and Standardization                              |
 | Oct 27, 28    | Op-Ed Project Writing Workshop                                                |
 | Nov 3         | Algorithmic Fairness and Justice                                              |
 | Nov 10        | Algorithms                                                                    |
