@@ -5,7 +5,7 @@
 [Noémie Elhadad, PhD](https://people.dbmi.columbia.edu/noemie/)  ([noemie.elhadad@columbia.edu](mailto:noemie.elhadad@columbia.edu))   
 [Sandra Soo-Jin Lee, PhD](https://www.mhe.cuimc.columbia.edu/profile/sandra-s-lee-phd)  ([sandra.lee@columbia.edu](mailto:sandra.lee@columbia.edu))
 
-**Teaching Assistant:**   
+**Teaching Assistants:**   
 Betina Idnay, PhD, RN  ([bsi2102@cumc.columbia.edu](mailto:bsi2102@cumc.columbia.edu))   
 Elise Li Zheng, PhD  ([bsi2102@cumc.columbia.edu](mailto:bsi2102@cumc.columbia.edu))
 
