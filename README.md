@@ -6,7 +6,7 @@
 [Sandra Soo-Jin Lee, PhD](https://www.mhe.cuimc.columbia.edu/profile/sandra-s-lee-phd)  ([sandra.lee@columbia.edu](mailto:sandra.lee@columbia.edu))
 
 **Teaching Assistant:**   
-Betina Idnay, PhD, RN  ([bsi2102@cumc.columbia.edu](mailto:bsi2102@cumc.columbia.edu))
+Betina Idnay, PhD, RN  ([bsi2102@cumc.columbia.edu](mailto:bsi2102@cumc.columbia.edu))   
 Elise Zheng, PhD  ([bsi2102@cumc.columbia.edu](mailto:bsi2102@cumc.columbia.edu))
 
 **Classroom Location:** Columbia University Irving Medical Center, Presbyterian Hospital, 20th Floor, Room 200
