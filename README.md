@@ -7,7 +7,7 @@
 
 **Teaching Assistant:**   
 Betina Idnay, PhD, RN  ([bsi2102@cumc.columbia.edu](mailto:bsi2102@cumc.columbia.edu))   
-Elise Zheng, PhD  ([bsi2102@cumc.columbia.edu](mailto:bsi2102@cumc.columbia.edu))
+Elise Li Zheng, PhD  ([bsi2102@cumc.columbia.edu](mailto:bsi2102@cumc.columbia.edu))
 
 **Classroom Location:** Columbia University Irving Medical Center, Presbyterian Hospital, 20th Floor, Room 200
 
