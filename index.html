@@ -13,7 +13,7 @@
 
 <title>BINF 4008-02</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.24/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -29,14 +29,14 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -184,8 +184,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -193,16 +193,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -387,7 +380,7 @@ div.tocify {
 </style>
 <p><font size="+2"><strong>INTERROGATING ETHICS AND JUSTICE IN DIGITAL
 HEALTH</strong></font><br />
-<strong>Fall 2022 - Thursdays, 2:00-4:00PM</strong><br />
+<strong>Spring 2024 - Thursdays, 2:00-4:00PM</strong><br />
 <a href="https://www.dbmi.columbia.edu/" target="_blank">Department of
 Biomedical Informatics, Columbia University</a> |
 <a href="https://www.mhe.cuimc.columbia.edu/" target="_blank">Department
@@ -408,10 +401,8 @@ Elhadad, PhD</a><br />
 <a href="mailto:noemie.elhadad@columbia.edu?subject=BINF 4008-02" target="_blank">noemie.elhadad@columbia.edu</a>
 <table style="font-size:80%;">
 <td>
-Associate Professor of Biomedical Informatics<br />
-Vice Chair of Research and Graduate Program Director, Biomedical
-Informatics<br />
-Affiliated with Computer Science<br />
+Chair, Department of Biomedical Informatics Associate Professor of
+Biomedical Informatics Affiliated with Computer Science<br />
 Data Science Institute<br />
 Columbia University
 </p>
@@ -428,38 +419,66 @@ Soo-Jin Lee, PhD</a><br />
 <a href="mailto:sandra.lee@columbia.edu?subject=BINF 4008-02" target="_blank">sandra.lee@columbia.edu</a><br />
 <table style="font-size:80%;">
 <td>
-Professor of Medical Humanities and Ethics<br />
-Chief, Division of Ethics<br />
-Associate Director, Regulatory Knowledge and Support and Ethics Resource
-(RSKER) Columbia University Irving Institute for Clinical and
-Translational Research<br />
-Co-Director, Center for ELSI Resources and Analysis (CERA), NIH/National
-Human Genome Research Institute
+Chief, Division of Ethics<br> Professor of Medical Humanities and
+Ethics<br />
+Co-Director, Center for ELSI Resources and Analysis (CERA) &amp;
+ELSIhub<br> Director, Team Science Program &amp; Resource, Columbia
+University Irving Institute for Clinical and Translational
+Research<br />
 </p>
 </td>
 </table>
 </div>
 </div>
-<p><strong>Teaching Assistant:</strong></p>
+<br> <strong>Teaching Assistants:</strong><br />
+<div class="clearfix" >
 <div class="img-container">
-<p><img src="assets/img/reyesnieva_harry.png" style="float:left;height: 150px;width: 150px" alt="Avatar" class="avatar" /></p>
+<img src="assets/img/idnay_betina.jpg" style="float:left;height: 150px;width: 150px" alt="Avatar" class="avatar" />
 </div>
-<div class="bio-container2">
+<div class="bio-container" float:left>
 <p>
-<a href="https://www.harryreyesnieva.com" target="_blank">Harry Reyes
-Nieva, MAS, MA</a><br />
-<a href="mailto:harry.reyes@columbia.edu?subject=BINF 4008-02" target="_blank">harry.reyes@columbia.edu</a>
+Betina Idnay, PhD, RN</a><br />
+<a href="mailto:bsi2102@cumc.columbia.edu?subject=BINF 4008-02" target="_blank">bsi2102@cumc.columbia.edu</a><br />
 <table style="font-size:80%;">
 <td>
-PhD student in Biomedical Informatics,<br />
-Columbia University<br />
-Visiting Postgraduate Research Fellow,<br />
-Harvard Medical School
+Postdoctoral Research Fellow<br> Department of Biomedical Informatics
 </p>
 </td>
 </table>
 <br> <br>
 </div>
+<div class="img-container">
+<img src="assets/img/zheng_elise.jpg" style="float:left;height: 150px;width: 150px"
+  alt="Avatar" class="avatar" />
+</div>
+<div class="bio-container">
+<p>
+Elise Li Zheng, PhD</a><br />
+<a href="mailto:lz2968@cumc.columbia.edu?subject=BINF 4008-02" target="_blank">lz2968@cumc.columbia.edu</a>
+<table style="font-size:80%;">
+<td>
+Postdoctoral Research Scientist<br />
+Division of Ethics, Department of Medical Humanities and Ethics
+</p>
+</td>
+</table>
+<br> <br>
+</div>
+</div>
+<!-- <div class="img-container"> -->
+<!-- <img src="assets/img/reyesnieva_harry.png" style="float:left;height: 150px;width: 150px" alt="Avatar" class="avatar" /> -->
+<!-- </div> -->
+<!-- <div class="bio-container2"> -->
+<!-- <p><a href="https://www.harryreyesnieva.com" target="_blank">Harry Reyes Nieva, MPhil, MAS, MA</a> -->
+<!-- <a href="mailto:harry.reyes@columbia.edu?subject=BINF 4008-02" target="_blank">harry.reyes@columbia.edu</a> -->
+<!-- <table style="font-size:80%;"><td> -->
+<!-- PhD student in Biomedical Informatics,    -->
+<!-- Columbia University    -->
+<!-- Visiting Postgraduate Research Fellow,     -->
+<!-- Harvard Medical School</p></td></table>  -->
+<!-- <br> -->
+<!-- <br> -->
+<!-- </div> -->
 <div id="course-description" class="section level2">
 <h2>Course Description</h2>
 <p>Engaging with data is a civic requirement. Technical expertise must
@@ -497,17 +516,18 @@ ethics for digital health targeted at the general public.</p></li>
 <p>When students complete this course, they will be able to:</p>
 <ul>
 <li><p>Engage with fundamental concepts in the social study of science
-and technology and analyze social and political issues (e.g.,
-construction of categories, co-production, expertise, public engagement
-and structural inequality);</p></li>
+and technology and analyze historical, social, and political issues
+(e.g., construction of categories, co-production, expertise, public
+engagement, and structural inequality);</p></li>
 <li><p>Identify ethical issues in data science techniques applied in
-biomedical research, clinical care, and wellbeing technology such as
-privacy, autonomy, discrimination, and accountability;</p></li>
-<li><p>Identify how and to what extent values are embedded in technical
-artifacts and systems through implicit and explicit technological design
-and user experience;</p></li>
-<li><p>Critically analyze the implications of prioritizing values for
-individuals and groups;</p></li>
+biomedical research, clinical care, and wellbeing technology, including
+fairness, equity and justice, and issues such as privacy, autonomy,
+discrimination, and accountability;</p></li>
+<li><p>Critically analyze and identify how and to what extent values are
+embedded in technical artifacts and systems through implicit and
+explicit technological design and user experience, and how to prioritize
+values for individuals and groups and their implications for
+tradeoffs;</p></li>
 <li><p>Carry out analyses of complex health and healthcare datasets to
 identify types of potential biases;</p></li>
 <li><p>Engage and critically analyze computational approaches proposed
@@ -522,8 +542,7 @@ digital health from an ethical and justice standpoint.</p></li>
 <p>Registration for the course is with instructor’s permission. The
 course is open to Columbia University graduate students as well as
 undergraduate seniors. As you register, please send an email to Drs
-Elhadad and Lee with the following information, prior to September 7,
-2022:<br />
+Elhadad and Lee with the following information:<br />
 * Your name, uni, department, and year in degree<br />
 * In a few sentences, why are you interested in taking the course?<br />
 * Do you have experience with coding?<br />
@@ -531,9 +550,11 @@ Elhadad and Lee with the following information, prior to September 7,
 </div>
 <div id="prerequisites" class="section level2">
 <h2>Prerequisites</h2>
-<p>No prior coursework is required. The course is open to graduate
-students as well as undergraduate seniors. Permission from the course
-directors is required to enroll.</p>
+<p>Students must have foundational programming concepts (Python or R
+concepts) including data types and basic operations, and are able to
+effectively navigate the RStudio interface. The course is open to
+graduate students as well as undergraduate seniors. Permission from the
+course directors is required to enroll.</p>
 </div>
 <div id="course-requirements-and-grading" class="section level2">
 <h2>Course Requirements and Grading</h2>
@@ -544,12 +565,14 @@ Experiments (35%), a Group Project (35%), and an Op-Ed (20%).</p>
 <div id="assignments" class="section level2">
 <h2>Assignments</h2>
 <p><strong>Use Case Responses and Experiments.</strong> Short response
-papers (1-2 pages) to readings discussed in class, and programming
-notebooks compiling experiments on use cases (e.g., assess degree of
-missing information of different data elements in given datasets and
-resulting biases). The primary competency of these assignments will
-relate to comprehension of material discussed in class and application
-of computational tools to specific use cases.</p>
+papers (1-2 pages) to readings discussed in class and the use case
+described in class, discuss potential solutions and how you would
+implement them, and programming notebooks compiling experiments on use
+cases (e.g., assess degree of missing information of different data
+elements in given datasets and resulting biases). The primary competency
+of these assignments will relate to comprehension of material discussed
+in class and application of computational tools to specific use
+cases.</p>
 <p><strong>Group project.</strong> Small teams of students with
 interdisciplinary background will select a particular issue (e.g.,
 predictive modeling for resource allocation in a pandemic), identify
@@ -561,47 +584,16 @@ different ethical frameworks and the algorithmic approaches discussed in
 class. Furthermore, the project will provide experience for students to
 work closely across their discipline boundaries and experience
 first-hand the challenges and rewards of such collaborations.</p>
-<p><strong>Op-Ed.</strong> Students will write op-eds (800 words) that
-communicate the complexity of a chosen topic at the intersection of
+<p><strong>Op-Ed.</strong> Students will write op-eds (650-800 words)
+that communicate the complexity of a chosen topic at the intersection of
 ethics, justice, and digital health to a general audience. The primary
 competency for this assignment pertains to the importance of
 communication and civic engagement on current policy and technological
-issues. Students will pitch their OpEds to different venues if they
-desire to, and unless another venue is secured they will have the
-opportunity to publish their pieces on the course’s blog.<br />
-<em>Due: December 8, 2022.</em></p>
-</div>
-<div id="write-to-change-the-world-workshop" class="section level2">
-<h2>Write to Change the World Workshop</h2>
-<p>To support students with the Op-Ed assignment, students will
-participate in a two-day online workshop and receive individual
-editing/mentoring by members of The OpEd Project. The two-day workshop
-is scheduled for <ins>Thursday, October 27th, 2-5:30pm</ins> and
-<ins>Friday, October 28th, 2-5:30pm</ins>. Students will be required to
-attend <ins>both</ins> sessions of the two-day workshop.</p>
-<p>OpEd Project workshops are designed to inspire and cultivate a
-greater sense of social responsibility by clarifying our potential
-impact on the world. The OpEd Project uses op-eds as an action step, but
-the framework and curriculum can apply to any place where someone seeks
-to have an impact - at their university or institution, in business, in
-political office, and beyond. The OpEd Project works with individuals,
-communities, and organizations across all fields, disciplines, and
-issues. Their <em>Write to Change the World</em> workshop is based on
-time-tested models of transformational learning, designed to unlock
-knowledge in powerful and unexpected ways.</p>
-<p>In this highly-interactive, energetic workshop, students will explore
-the source of credibility and how to establish it; how to present ideas
-quickly and powerfully under pressure; the components of powerful,
-evidence-based argument; the difference between being “right” and being
-effective; and strategies for making a greater impact, including how to
-escape a pigeonhole, how to preach beyond the choir, and the value of
-seeing your argument as part of a bigger picture and yourself as part of
-a larger public conversation. Students will expand the way they think
-about their particular expertise, discover tools that help them
-“translate” niche ideas into large themes, and explore how to pitch
-their ideas. They will leave the workshop with concrete results,
-including a draft outline of an op-ed in hand, and will have ongoing
-access to OpEd Project resources, events and mentors.</p>
+issues. To support students with this assignment, students will
+participate in a workshop on writing to the general public. Students
+will writeOpEds for a selected venue and will have the opportunity to
+publish their pieces on the course’s blog and other outlets. <em>Final
+Due: April 18, 2024.</em></p>
 </div>
 <div id="academic-integrity" class="section level2">
 <h2>Academic Integrity</h2>
@@ -644,58 +636,69 @@ date.</p>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Sep 8</td>
-<td>Ethics: Principles and Fundamentals / Basics of R Programming
-(Optional)</td>
+<td>Jan 18</td>
+<td>Ethics: Principles and Fundamentals</td>
 </tr>
 <tr class="even">
-<td>Sep 15</td>
-<td>OHDSI and OMOP Primer / R and SQL Access Lab</td>
+<td>Jan 25</td>
+<td>AI in Digital Health</td>
 </tr>
 <tr class="odd">
-<td>Sep 22</td>
-<td>Stakeholders, Actors of Digital Health</td>
+<td>Feb 1</td>
+<td>Observational Health Data Sciences and Informatics
+(OHDSI)/Observational Medical Outcomes Partnership (OMOP) Primer / R and
+SQL Access Lab</td>
 </tr>
 <tr class="even">
-<td>Sep 29</td>
-<td>How to Formulate an Ethical Argument / Whose Data and Which Data Are
-Collected</td>
+<td>Feb 8</td>
+<td>Sociotechnical systems, stakeholders and politics of technology</td>
 </tr>
 <tr class="odd">
-<td>Oct 6</td>
-<td>Designing for Inclusion</td>
+<td>Feb 15</td>
+<td>Data Ownership</td>
 </tr>
 <tr class="even">
-<td>Oct 20</td>
-<td>Privacy / Data Harmonization and Standardization</td>
+<td>Feb 22</td>
+<td>Whose Data; Which Data are Collected; Data Harmonizations and
+Standardizations</td>
 </tr>
 <tr class="odd">
-<td>Oct 27, 28</td>
-<td>Op-Ed Project Writing Workshop</td>
+<td>Feb 29</td>
+<td>Privacy and Safety</td>
 </tr>
 <tr class="even">
-<td>Nov 3</td>
-<td>Algorithmic Fairness and Justice</td>
+<td>Mar 7</td>
+<td>Writing Op-Ed Workshop</td>
 </tr>
 <tr class="odd">
-<td>Nov 10</td>
-<td>Algorithms</td>
+<td>Mar 14</td>
+<td>No class</td>
 </tr>
 <tr class="even">
-<td>Nov 17</td>
-<td>Safety</td>
+<td>Mar 21</td>
+<td>Algorithmic Fairness and Justice: from infrastructure to
+application</td>
 </tr>
 <tr class="odd">
-<td>Nov 24</td>
-<td>No Class (Thanksgiving)</td>
+<td>Mar 28</td>
+<td>GenAI: epistemological challenge</td>
 </tr>
 <tr class="even">
-<td>Dec 1</td>
-<td>Trust and Transparency</td>
+<td>Apr 4</td>
+<td>Trust, Trustworthiness and Transparency</td>
 </tr>
 <tr class="odd">
-<td>Dec 8</td>
-<td>Group Presentations / Op-Ed Discussion</td>
+<td>Apr 11</td>
+<td>Designing ethical technology through inclusive and participatory
+design</td>
+</tr>
+<tr class="even">
+<td>Apr 18</td>
+<td>Op-Ed discussions</td>
+</tr>
+<tr class="odd">
+<td>Apr 25</td>
+<td>Group Presentations</td>
 </tr>
 </tbody>
 </table>
@@ -703,7 +706,7 @@ Collected</td>
 
 <br><br>
 <footer>
-    <p class="copyright text-muted" align="center">Copyright &copy; 2022</br>
+    <p class="copyright text-muted" align="center">Copyright &copy; 2024</br>
 Columbia University Irving Medical Center</br>
         622 West 168th Street</br>
         New York, NY 10032</p
