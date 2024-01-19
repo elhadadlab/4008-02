@@ -1,12 +1,13 @@
 # BINF G4008: INTERROGATING ETHICS AND JUSTICE IN DIGITAL HEALTH
-## Fall 2022 - Thursdays, 2:00-4:00PM
+## Spring 2024 - Thursdays, 2:00-4:00PM
 
 **Course Directors:**    
 [Noémie Elhadad, PhD](https://people.dbmi.columbia.edu/noemie/)  ([noemie.elhadad@columbia.edu](mailto:noemie.elhadad@columbia.edu))   
 [Sandra Soo-Jin Lee, PhD](https://www.mhe.cuimc.columbia.edu/profile/sandra-s-lee-phd)  ([sandra.lee@columbia.edu](mailto:sandra.lee@columbia.edu))
 
 **Teaching Assistant:**   
-[Harry Reyes Nieva, MAS, MA](www.harryreyesnieva.com)  ([harry.reyes@columbia.edu](mailto:harry.reyes@columbia.edu))
+Betina Idnay, PhD, RN  ([bsi2102@cumc.columbia.edu](mailto:bsi2102@cumc.columbia.edu))
+Elise Zheng, PhD  ([bsi2102@cumc.columbia.edu](mailto:bsi2102@cumc.columbia.edu))
 
 **Classroom Location:** Columbia University Irving Medical Center, Presbyterian Hospital, 20th Floor, Room 200
 
